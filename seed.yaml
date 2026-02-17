@@ -1,7 +1,6 @@
 # seed.yaml — Automation Contract for organvm-i-theoria/recursive-engine--generative-entity
 # Schema: seed/v1.0
-# Generated: 2026-02-12 (AUTONOMY Sprint)
-# Category: standard
+# Generated: 2026-02-17 (SENSORIA Sprint)
 
 schema_version: "1.0"
 organ: I
@@ -10,12 +9,13 @@ repo: recursive-engine--generative-entity
 org: organvm-i-theoria
 
 metadata:
-  implementation_status: PRODUCTION
+  implementation_status: ACTIVE
   tier: flagship
   promotion_status: PUBLIC_PROCESS
   last_validated: "2026-02-11"
-  generated: "2026-02-12"
-  sprint: "AUTONOMY"
+  generated: "2026-02-17"
+  sprint: "SENSORIA"
+  language: python
 
 agents:
   - name: ci
@@ -24,21 +24,10 @@ agents:
     description: "Continuous integration pipeline"
 
 produces:
-  - type: dependency
-    description: Consumed by organvm-i-theoria/cognitive-archaelogy-tribunal
-    consumers: [organvm-i-theoria/cognitive-archaelogy-tribunal]
-  - type: dependency
-    description: Consumed by organvm-i-theoria/reverse-engine-recursive-run
-    consumers: [organvm-i-theoria/reverse-engine-recursive-run]
-  - type: dependency
-    description: Consumed by organvm-ii-poiesis/metasystem-master
-    consumers: [organvm-ii-poiesis/metasystem-master]
-  - type: dependency
-    description: Consumed by organvm-iv-taxis/agentic-titan
-    consumers: [organvm-iv-taxis/agentic-titan]
-  - type: dependency
-    description: Consumed by organvm-v-logos/public-process
-    consumers: [organvm-v-logos/public-process]
+  - type: theory
+    description: "Epistemological frameworks, recursive engines, ontological systems"
+
+consumes: []
 
 subscriptions:
   - event: governance.updated
