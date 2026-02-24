@@ -153,3 +153,21 @@ pytest rege/tests/test_parser.py -v  # Specific file
 `RE-GE_[TYPE]_[NUMBER]_[NAME].md`
 - TYPE: ORG_BODY, OS_INTERFACE, AAW_CORE, PROTOCOL
 - Stylized with `4` replacing `A` in certain contexts (ET4L, R!4L)
+
+<!-- ORGANVM:AUTO:START -->
+## System Context (auto-generated — do not edit)
+
+**Organ:** ORGAN-I (Theory) | **Tier:** flagship | **Status:** PUBLIC_PROCESS
+**Org:** `unknown` | **Repo:** `recursive-engine--generative-entity`
+
+### Edges
+- **Produces** → `unknown`: unknown
+
+### Siblings in Theory
+`organon-noumenon--ontogenetic-morphe`, `auto-revision-epistemic-engine`, `narratological-algorithmic-lenses`, `call-function--ontological`, `sema-metra--alchemica-mundi`, `system-governance-framework`, `cognitive-archaelogy-tribunal`, `a-recursive-root`, `radix-recursiva-solve-coagula-redi`, `.github`, `nexus--babel-alexandria-`, `reverse-engine-recursive-run`, `4-ivi374-F0Rivi4`, `cog-init-1-0-`, `collective-persona-operations` ... and 4 more
+
+### Governance
+- Foundational theory layer. No upstream dependencies.
+
+*Last synced: 2026-02-24T12:41:28Z*
+<!-- ORGANVM:AUTO:END -->
