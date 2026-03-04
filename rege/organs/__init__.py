@@ -19,6 +19,7 @@ Each organ implements specific mythic functions:
 - TIME_RULES: Temporal recursion engine
 - PROCESS_PRODUCT: Converts lived process into sharable forms
 - PUBLISHING_TEMPLE: Final gate for releasing outputs
+- INTERLOCUTOR: Ghost dialogue protocols and symbolic being interfaces
 """
 
 from rege.organs.base import OrganHandler
@@ -44,6 +45,7 @@ from rege.organs.audience_engine import AudienceEngine
 from rege.organs.analog_digital_engine import AnalogDigitalEngine
 from rege.organs.consumption_protocol import ConsumptionProtocol
 from rege.organs.stagecraft_module import StagecraftModule
+from rege.organs.interlocutor import InterlocutorEngine
 
 __all__ = [
     # Base
@@ -74,4 +76,5 @@ __all__ = [
     "AnalogDigitalEngine",
     "ConsumptionProtocol",
     "StagecraftModule",
+    "InterlocutorEngine",
 ]

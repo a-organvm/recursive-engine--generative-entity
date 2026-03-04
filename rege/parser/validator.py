@@ -146,6 +146,12 @@ ORGAN_REGISTRY: Dict[str, Dict[str, Any]] = {
         "output_types": ["performance", "stage_config", "enactment", "performance_log", "module_status"],
         "description": "Performance engine for enacting rituals in real-time",
     },
+    "INTERLOCUTOR": {
+        "valid_modes": ["possession", "summoning", "mirroring", "mask-shift", "multiplicity", "consent", "default"],
+        "required_charge": 0,
+        "output_types": ["dialogue_entry", "possession_log", "ghost_response", "mirror_echo", "multiplicity_record", "consent_record", "engine_status"],
+        "description": "Ghost dialogue protocols and symbolic being interfaces — Chamber of Dialogic Echo",
+    },
     # Protocol pseudo-organs
     "PROTOCOL_FUSE01": {
         "valid_modes": ["auto", "invoked", "forced", "default"],

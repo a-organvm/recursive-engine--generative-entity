@@ -190,6 +190,7 @@ def register_default_organs() -> OrganRegistry:
     from rege.organs.analog_digital_engine import AnalogDigitalEngine
     from rege.organs.consumption_protocol import ConsumptionProtocol
     from rege.organs.stagecraft_module import StagecraftModule
+    from rege.organs.interlocutor import InterlocutorEngine
 
     registry = get_organ_registry()
 
@@ -217,5 +218,6 @@ def register_default_organs() -> OrganRegistry:
     registry.register_class(AnalogDigitalEngine)
     registry.register_class(ConsumptionProtocol)
     registry.register_class(StagecraftModule)
+    registry.register_class(InterlocutorEngine)
 
     return registry

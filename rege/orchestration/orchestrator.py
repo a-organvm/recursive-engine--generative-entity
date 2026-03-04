@@ -354,8 +354,9 @@ class RitualChainOrchestrator:
         invocation = Invocation(
             organ=phase.organ,
             mode=phase.mode,
-            input_symbol=input_data.get("symbol", ""),
+            symbol=input_data.get("symbol", ""),
             depth=DepthLevel.STANDARD,
+            expect=input_data.get("expect", ""),
             flags=input_data.get("flags", []),
             charge=input_data.get("charge", 50),
         )
