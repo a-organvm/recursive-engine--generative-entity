@@ -1,0 +1,9 @@
+schema_version: '1.0'
+repo: recursive-engine--generative-entity
+organ: I
+display_name: "RE:GE \u2014 A symbolic operating system for myth, identity, ritual,\
+  \ and recursive systems. 21 organ handlers, ritual syntax DSL, workflow orchestration,\
+  \ external bridges (Obsidian/Git/Max-MSP)."
+delivery:
+- platform: web_app
+  status: not_started
