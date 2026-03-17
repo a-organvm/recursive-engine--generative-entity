@@ -1,9 +1,35 @@
 schema_version: '1.0'
 repo: recursive-engine--generative-entity
 organ: I
-display_name: "RE:GE \u2014 A symbolic operating system for myth, identity, ritual,\
-  \ and recursive systems. 21 organ handlers, ritual syntax DSL, workflow orchestration,\
-  \ external bridges (Obsidian/Git/Max-MSP)."
+display_name: "RE:GE — Symbolic operating system for myth, identity, ritual, and recursive systems"
+
 delivery:
-- platform: web_app
+- platform: python_library
+  status: in_progress
+  priority: critical
+  notes: "21 organ handlers, ritual syntax DSL, workflow orchestration"
+  next_action: "Stabilize DSL parser and organ handler API"
+- platform: cli_tool
+  status: in_progress
+  priority: high
+  notes: "CLI for running rituals, managing organs, and orchestrating workflows"
+  next_action: "Complete CLI commands for all 21 organ types"
+
+content:
+- platform: docs_site
   status: not_started
+  priority: critical
+  notes: "DSL reference, organ handler specs, external bridges (Obsidian/Git/Max-MSP)"
+  next_action: "Write DSL syntax reference and organ type catalog"
+- platform: academic_writing
+  status: planned
+  priority: high
+  notes: "Paper on recursive symbolic systems for computational myth"
+  next_action: "Draft outline connecting ritual syntax to recursive computation"
+
+community:
+- platform: discord
+  status: not_started
+  priority: low
+  notes: "Developer community for DSL contributions and organ extensions"
+  next_action: "Create after v1.0 release"
