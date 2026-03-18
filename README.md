@@ -503,3 +503,11 @@ MIT License — see [LICENSE](LICENSE) for the full text.
 **System:** [organvm eight-organ system](https://github.com/meta-organvm)
 
 *Last updated: 2026-02-10*
+
+<!-- SYSTEM-NAV-START -->
+
+---
+
+<sub>[Case Study](https://4444j99.github.io/portfolio/projects/recursive-engine/) · [Portfolio](https://4444j99.github.io/portfolio/) · [System Directory](https://4444j99.github.io/portfolio/directory/) · [ORGAN I · Theoria](https://organvm-i-theoria.github.io/) · Part of the <a href="https://4444j99.github.io/portfolio/directory/">ORGANVM eight-organ system</a></sub>
+
+<!-- SYSTEM-NAV-END -->
