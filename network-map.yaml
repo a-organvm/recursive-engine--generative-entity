@@ -1,0 +1,25 @@
+schema_version: '1.0'
+repo: recursive-engine--generative-entity
+organ: ORGAN-I
+mirrors:
+  technical:
+  - project: pallets/click
+    platform: github
+    relevance: 'Python dependency: click'
+    engagement:
+    - watch
+    tags:
+    - auto-discovered
+    - python-dep
+  - project: pytest-dev/pytest
+    platform: github
+    relevance: 'Python dependency: pytest'
+    engagement:
+    - watch
+    tags:
+    - auto-discovered
+    - python-dep
+  parallel: []
+  kinship: []
+ledger: ~/.organvm/network/ledger.jsonl
+last_scanned: '2026-03-20T11:55:26.327797+00:00'
