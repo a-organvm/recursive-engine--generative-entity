@@ -1,0 +1,55 @@
+{
+  "snapshot_id": "SNAP_20260706_173130",
+  "timestamp": "2026-07-06T17:31:30.749211",
+  "trigger": "manual",
+  "system_state": {
+    "total_size": 3,
+    "max_size": 1000,
+    "by_priority": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "STANDARD": 0,
+      "BACKGROUND": 3
+    },
+    "priority_distribution": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "STANDARD": 0,
+      "BACKGROUND": 3
+    },
+    "collision_count": 4,
+    "deadlock_count": 0,
+    "total_enqueued": 8,
+    "total_processed": 0,
+    "active_routes": 0,
+    "maintenance_mode": false,
+    "checkpoint_name": "test_cp"
+  },
+  "organ_states": {
+    "HEART_OF_CANON": "active",
+    "MIRROR_CABINET": "active",
+    "MYTHIC_SENATE": "active",
+    "ARCHIVE_ORDER": "active",
+    "RITUAL_COURT": "active",
+    "CODE_FORGE": "active",
+    "BLOOM_ENGINE": "active",
+    "ECHO_SHELL": "active",
+    "DREAM_COUNCIL": "active",
+    "MASK_ENGINE": "active",
+    "CHAMBER_OF_COMMERCE": "active",
+    "BLOCKCHAIN_ECONOMY": "active",
+    "PLACE_PROTOCOLS": "active",
+    "TIME_RULES": "active",
+    "PROCESS_PRODUCT": "active",
+    "PUBLISHING_TEMPLE": "active",
+    "PROCESS_MONETIZER": "active",
+    "AUDIENCE_ENGINE": "active",
+    "ANALOG_DIGITAL_ENGINE": "active",
+    "CONSUMPTION_PROTOCOL": "active",
+    "STAGECRAFT_MODULE": "active",
+    "INTERLOCUTOR": "active"
+  },
+  "pending_operations": [],
+  "error_log": [],
+  "recovery_point": null
+}
