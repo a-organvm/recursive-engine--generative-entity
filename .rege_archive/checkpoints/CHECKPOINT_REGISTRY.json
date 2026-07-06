@@ -1,0 +1,12 @@
+{
+  "checkpoints": [
+    {
+      "snapshot_id": "SNAP_20260706_164053",
+      "name": "test_cp",
+      "timestamp": "2026-07-06T16:40:53.169004",
+      "trigger": "manual"
+    }
+  ],
+  "saved_at": "2026-07-06T16:40:53.169637",
+  "count": 1
+}
