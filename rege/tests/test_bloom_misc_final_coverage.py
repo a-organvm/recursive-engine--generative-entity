@@ -542,6 +542,10 @@ class TestFormattingNoColor:
         import importlib
         import rege.formatting as fmt
 
+        # Ensure NO_COLOR is unset before we start to guarantee non-empty colors
+        monkeypatch.delenv("NO_COLOR", raising=False)
+        importlib.reload(fmt)
+
         # Verify colors are non-empty before disabling
         assert fmt.Colors.GREEN != ""
 

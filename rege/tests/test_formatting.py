@@ -23,17 +23,21 @@ from rege.formatting import (
 class TestColors:
     """Tests for Colors class."""
 
-    def test_colors_defined(self):
+    def test_colors_defined(self, monkeypatch):
         """Test color constants are defined."""
-        assert Colors.RED.startswith("\033[")
-        assert Colors.GREEN.startswith("\033[")
-        assert Colors.RESET == "\033[0m"
+        monkeypatch.delenv("NO_COLOR", raising=False)
+        import importlib
+        import rege.formatting as fmt
+        importlib.reload(fmt)
+
+        assert fmt.Colors.RED.startswith("\033[")
+        assert fmt.Colors.GREEN.startswith("\033[")
+        assert fmt.Colors.RESET == "\033[0m"
 
     def test_colors_disable(self):
         """Test colors can be disabled."""
         # Save original values
-        original_red = Colors.RED
-        original_reset = Colors.RESET
+        original_attrs = {attr: getattr(Colors, attr) for attr in dir(Colors) if attr.isupper()}
 
         # Disable
         Colors.disable()
@@ -42,8 +46,8 @@ class TestColors:
         assert Colors.RESET == ""
 
         # Restore
-        Colors.RED = original_red
-        Colors.RESET = original_reset
+        for attr, val in original_attrs.items():
+            setattr(Colors, attr, val)
 
 
 class TestColorize:
