@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=82.0.1", "wheel"]
+requires = ["setuptools>=83.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -28,12 +28,12 @@ classifiers = [
 keywords = ["symbolic", "myth", "ritual", "recursive", "generative"]
 
 dependencies = [
-    "click>=8.1.8",
+    "click>=8.4.2",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=8.4.2",
+    "pytest>=9.1.1",
     "pytest-cov>=7.1.0",
 ]
 
